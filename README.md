@@ -13,8 +13,7 @@ The 'framework' then makes sure they are available in the code _we create_,
 allowing us to wield their powerful tools.
 
 In this lab, we are going to practice the process of setting up a `package.json`
-file. We will also install an npm package or two and use their functionality in
-new code we write.
+file. We will also install an npm package or two and use their functionality in new code we write.
 
 
 ## Objectives
@@ -30,7 +29,7 @@ new code we write.
 
 There is only one tests for this lab written in `test/indexTest.js`, but we
 aren't able to run it! Try executing `learn test` or `npm test` (_Note_: `learn
-test` _wraps_ `npm test`): 
+test` _wraps_ `npm test`):
 
 ```
 > npm test
@@ -40,7 +39,7 @@ This directory doesn't appear to have any specs in it.
 This output makes sense because we don't have a `package.json` file that
 describes what the command `test` is supposed to do! To get the tests working,
 we will need to _create_ the file. How do we go about doing that? By running
-`npm init` of course! 
+`npm init` of course!
 
 
 ###### Create a `package.json` File
@@ -48,8 +47,8 @@ we will need to _create_ the file. How do we go about doing that? By running
 The `package.json` can be written quickly from scratch, but we already have a
 handy command for creating these files: `npm init`.
 
-Run `npm init` and follow the prompts until a `package.json` file is created.
-Following, run the tests with `npm test`: 
+Run `key word` and follow the prompts until a `package.json` file is created.
+Following, run the tests with `npm test`:
 
 ```
 > npm test

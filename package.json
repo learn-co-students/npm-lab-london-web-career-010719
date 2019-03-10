@@ -1,0 +1,30 @@
+{
+  "name": "npm-lab-london-web-career-010719",
+  "version": "1.0.0",
+  "description": "create package from scratch",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannickHoegerle/npm-lab-london-web-career-010719.git"
+  },
+  "keywords": [
+    "create",
+    "packagejson"
+  ],
+  "author": "YH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannickHoegerle/npm-lab-london-web-career-010719/issues"
+  },
+  "homepage": "https://github.com/YannickHoegerle/npm-lab-london-web-career-010719#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
